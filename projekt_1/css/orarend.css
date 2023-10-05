@@ -66,6 +66,8 @@ h1{
 }
 
 input{
+    display: flex;
     width: 100px;
     height: 100px;
+    float: right;
 }
