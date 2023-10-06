@@ -70,4 +70,51 @@ input{
     width: 100px;
     height: 100px;
     float: right;
+backdrop-filter: blur(5px);
+}
+
+@media only screen and(max-width: 1000px){
+    #adat1,#adat{
+        margin-left: 30px;
+        width: 120px;
+    }
+}
+
+@media only screen and(max-width: 900px){
+    #adat1,#adat{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and(max-width: 800px){
+    #adat1,#adat{
+        margin-left: 10px;
+        width: 100px;
+    }
+}
+
+@media only screen and(max-width: 700px){
+    #adat1,#adat{
+        margin-left: 5px;
+    }
+}
+
+@media only screen and(max-width: 600px){
+    #adat1,#adat{
+        margin-left: 3px;
+        width: 80px;
+    }
+}
+
+@media only screen and(max-width: 500px){
+    #adat1,#adat{
+        margin-left: 2px;
+    }
+}
+
+@media only screen and(max-width: 400px){
+    #adat1,#adat{
+        margin-left: 1px;
+        width: 60px;
+    }
 }
